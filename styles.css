@@ -1,0 +1,290 @@
+.preload {
+display: none;
+}
+
+body {
+margin: 0px;
+}
+
+img.round {
+border-radius: 8px;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-webkit-border-radius: 8px;
+}
+
+img.round:hover{
+box-shadow: 2px 0px 1px 1px #e6e6e6;
+-webkit-box-shadow: 0px 0px 2px 2px #e6e6e6;
+-moz-box-shadow: 2px 0px 1px 1px #e6e6e6;
+}
+
+iframe {
+border: 0;
+height: 100%;
+width: 100%;
+}
+
+table {
+margin-left: 400px;
+}
+
+h1{
+font-size: 12pt;
+font-family: 'Open Sans', sans-serif;
+color: #d84128;
+font-weight: 600;
+line-height: 18pt;
+}
+
+h1.home{
+font-size: 54pt;
+color: #727272;
+font-weight: 300;
+line-height: 54pt;
+}
+
+h2 {
+font-size: 11pt;
+font-family: 'Open Sans', sans-serif;
+color: #000000;
+font-weight: 300;
+line-height: 16pt;
+}
+
+h3 {
+font-size: 8pt;
+font-family: 'Open Sans', sans-serif;
+color: #000000;
+font-weight: 300;
+line-height: 14pt;
+}
+
+h3.tip {
+font-size: 10pt;
+font-family: 'Open Sans', sans-serif;
+color: #000000;
+font-weight: 300;
+line-height: 14pt;
+}
+
+a:link {
+text-decoration: underline;
+color: #d84128;
+}
+
+a.menu:link {
+text-decoration: none;
+color: #000000;
+}
+
+a.menu:visited {
+text-decoration: none;
+color: #000000;
+}
+
+a.tip:link {
+text-decoration: none;
+color: #000000;
+}
+
+a.tip:hover {
+text-decoration: none;
+color: #000000;
+}
+
+a.tip:visited {
+text-decoration: none;
+color: #000000;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+color: #d84128;
+}
+
+hr {
+height: 1px;
+color: #d84128;
+background-color: #d84128;
+width: 100px;
+border: 0px;
+margin-left: 0px;
+}
+
+p.menu {
+padding: 5px;
+background-color: white;
+border-style: dashed;
+border-width: 1px;
+border-color: #c8c8c8;
+}
+
+p.menu:hover {
+border-style: dashed;
+border-width: 1px;
+border-color: #c8c8c8;
+}
+
+#container {
+height: auto;
+overflow: hidden;
+}
+
+#left {
+width: 325px;
+position: absolute;
+left: 0px;
+background-color: white;
+box-shadow: 1px 0px 1px 1px #a5a5a5;
+-webkit-box-shadow: 1px 0px 1px 1px #a5a5a5;
+-moz-box-shadow: 1px 0px 1px 1px #a5a5a5;
+height: 100%;
+padding-left: 15px;
+padding-right: 15px;
+z-index: 2;
+overflow-y: scroll;
+}
+
+#lefthome{
+position: absolute;
+right: 10px;
+top: 13px;
+z-index: 3;
+}
+
+#tip {
+position: absolute;
+left: 50%;
+top: 10px;
+z-index: 3;
+background-color: white;
+box-shadow: 1px 0px 1px 1px #a5a5a5;
+-webkit-box-shadow: 1px 0px 1px 1px #a5a5a5;
+-moz-box-shadow: 1px 0px 1px 1px #a5a5a5;
+height: 20px;
+display: block;
+padding: 3px;
+overflow: hidden;
+}
+
+#lgalegendclosed {
+position: absolute;
+left: 360px;
+bottom: 10px;
+z-index: 3;
+background-color: white;
+box-shadow: 1px 0px 1px 1px #a5a5a5;
+-webkit-box-shadow: 1px 0px 1px 1px #a5a5a5;
+-moz-box-shadow: 1px 0px 1px 1px #a5a5a5;
+height: 20px;
+display: block;
+padding: 3px;
+overflow: hidden;
+}
+
+#lgalegendopen {
+position: absolute;
+left: 360px;
+bottom: 10px;
+z-index: 3;
+background-color: white;
+box-shadow: 1px 0px 1px 1px #a5a5a5;
+-webkit-box-shadow: 1px 0px 1px 1px #a5a5a5;
+-moz-box-shadow: 1px 0px 1px 1px #a5a5a5;
+display: none;
+padding: 3px;
+overflow: hidden;
+}
+
+#right {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: left;
+height: 100%;
+z-index: 1;
+display: block;
+}
+
+#viz1 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}
+
+#viz2 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}
+
+#viz3 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}
+
+#viz4 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}
+
+#viz5 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}
+
+#viz6 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}
+
+#viz7 {
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+text-align: center;
+height: 100%;
+z-index: 1;
+display: none;
+}

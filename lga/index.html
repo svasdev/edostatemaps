@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<title>
+Open Data Edo // Demos
+</title>
+
+<META name="description" content="Demonstrating education visualizations using open data from Edo State">
+<META name="keywords" content="Edo State Nigeria open data open government technology days 2013">
+<META name="locale" content="Nigeria">
+<META name="robots" content="index,follow">
+
+<link rel="stylesheet" type="text/css" href="../styles.css">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="left">
+
+<div id="lefthome"><a href="../"><img src="../img/home.png" border="0"></a></div>
+
+<h1>What can you see with open data?</h1>
+<h2>Select a story from the options below. These visualizations utilize data published on the <a href="http://data.edostate.gov.ng/" target="_blank">Edo State Open Data Portal</a>.
+<p>Maps were made using <a href="http://www.mapbox.com/tilemill/" target="_blank">Tilemill</a> and hosted by <a href="http://www.mapbox.com/" target="_blank">Mapbox</a>. You can use both of these tools for free.</h2>
+<hr>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz1').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz2').style.display='none';document.getElementById('viz3').style.display='none';document.getElementById('viz4').style.display='none';document.getElementById('viz5').style.display='none';document.getElementById('viz6').style.display='none';document.getElementById('viz7').style.display='none';"><p class="menu"><b>Pupil-teacher ratio</b><br>Pupil-teacher ratio in primary and secondary schools (public and private).</p></h2>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz2').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz1').style.display='none';document.getElementById('viz3').style.display='none';document.getElementById('viz4').style.display='none';document.getElementById('viz5').style.display='none';document.getElementById('viz6').style.display='none';document.getElementById('viz7').style.display='none';"><p class="menu"><b>School enrollment</b><br>Average number of students in primary and secondary schools (public and private).</p></a></h2>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz3').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz1').style.display='none';document.getElementById('viz2').style.display='none';document.getElementById('viz4').style.display='none';document.getElementById('viz5').style.display='none';document.getElementById('viz6').style.display='none';document.getElementById('viz7').style.display='none';"><p class="menu"><b>Number of schools</b><br>Total number of primary and secondary schools (public and private).</p></a></h2>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz4').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz1').style.display='none';document.getElementById('viz2').style.display='none';document.getElementById('viz3').style.display='none';document.getElementById('viz5').style.display='none';document.getElementById('viz6').style.display='none';document.getElementById('viz7').style.display='none';"><p class="menu"><b>Private school teachers</b><br>Percent of all teachers who practice at private school (primary and secondary).</p></a></h2>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz5').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz1').style.display='none';document.getElementById('viz2').style.display='none';document.getElementById('viz3').style.display='none';document.getElementById('viz4').style.display='none';document.getElementById('viz6').style.display='none';document.getElementById('viz7').style.display='none';"><p class="menu"><b>Private school students</b><br>Percent of all students who attend private school (primary and secondary).</p></a></h2>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz6').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz1').style.display='none';document.getElementById('viz2').style.display='none';document.getElementById('viz3').style.display='none';document.getElementById('viz5').style.display='none';document.getElementById('viz4').style.display='none';document.getElementById('viz7').style.display='none';"><p class="menu"><b>Gender gap</b><br>The percent of citizens (aged 6+) without schooling who are female.</p></a></h2>
+
+<h2><a href="#" class="menu" onclick="document.getElementById('viz7').style.display='block';document.getElementById('right').style.display='none';document.getElementById('viz1').style.display='none';document.getElementById('viz2').style.display='none';document.getElementById('viz3').style.display='none';document.getElementById('viz5').style.display='none';document.getElementById('viz6').style.display='none';document.getElementById('viz4').style.display='none';"><p class="menu"><b>Education gap</b><br>The ratio of citizens (age 6+) with schooling to those without.</p></a></h2>
+
+<hr>
+<h3>This website was made in support of the launch of the Edo State Open Data Portal. The goal of this website is to demonstrate how free and open tools can leverage open data for visual storytelling.
+<p>See each map legend for a link to the data source. In most cases, the data displayed on the map is a compilation of various datasets merged and cleaned up by the author; this master spreadsheet can be viewed <a href="https://docs.google.com/spreadsheet/ccc?key=0At3waoqjBcVmdEUzVkFVT093dkMyR3Y3SnAxLXlCeFE&usp=sharing" target="_blank">here</a>.</h3>
+<p><img src="http://prod-http-80-800498448.us-east-1.elb.amazonaws.com/w/images/5/5e/WB_logo.gif" width="70px" align="middle" style="padding-left:20px;"><img src="http://www.netspexlimited.com/img/edo_state_logo.png" width="150" style="padding-left:40px;" align="middle">
+
+</div>
+
+<h3 class="tip"><div id="tip">Tip: Double-click on a map to zoom in.&nbsp;<a href="#" onclick="document.getElementById('tip').style.display='none';"><img src="../img/close.png" border="0" align="top"></a></div></h3>
+
+<h3 class="tip"><div id="lgalegendclosed"><a href="#" class="tip" onclick="document.getElementById('lgalegendclosed').style.display='none';document.getElementById('lgalegendopen').style.display='block';">Click to toggle LGA abbreviations key</a>&nbsp;<a href="#" onclick="document.getElementById('lgalegendclosed').style.display='none';"><img src="../img/close.png" border="0" align="top"></a></div></h3>
+
+<h3 class="tip"><div id="lgalegendopen"><a href="#" class="tip" onclick="document.getElementById('lgalegendopen').style.display='none';document.getElementById('lgalegendclosed').style.display='block';">Click to toggle LGA abbreviations key</a>&nbsp;<a href="#" onclick="document.getElementById('lgalegendopen').style.display='none';"><img src="../img/close.png" border="0" align="top"></a>
+
+<p>AKO: Akoko-Edo
+<br>EGO: Egor
+<br>ESC: Esan Central
+<br>ESN: Esan North-East
+<br>ESS: Esan South-East
+<br>ESW: Esan West
+<br>ETC: Etsako Central
+<br>ETE: Etsako East
+<br>ETW: Etsako West
+<br>IGB: Igueben
+<br>IKP: Ikpoba-Okha
+<br>ODO: Oredo
+<br>ORH: Orhionmwon
+<br>OVN: Ovia North-East
+<br>OVS: Ovia South-West
+<br>OWE: Owan East
+<br>OWW: Owan West
+<br>UHU: Uhunmwode
+</p>
+
+</div>
+</h3>
+
+<div id="right">
+<img src="../img/pixel.png" width="370px" height="400px" align="middle"><table><td><h1 class="home"><img src="../img/arrow.png" align="bottom"><img src="../img/pixel.png" width="10px" height="1px" align="middle">Choose a story to get started.</h1></td></table>
+</div>
+
+<div id="viz1"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_student_teacher_ratio.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+<div id="viz2"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_student_school_ratio.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+<div id="viz3"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_schools_per_lga.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+<div id="viz4"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_private_teachers.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+<div id="viz5"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_private_students.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+<div id="viz6"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_gender_gap.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+<div id="viz7"><iframe src='http://a.tiles.mapbox.com/v3/worldbank-education.edo_education_gap.html#8/6.738258606353293/5.07568359375'></iframe></div>
+
+</div>
+
+</body>
+
+</html>
